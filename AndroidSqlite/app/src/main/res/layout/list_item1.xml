@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210px"
+        android:background="@color/listViewBG"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/challanno"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/mapping"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:layout_marginTop="1px"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/party_name"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/rate"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70px"
+            android:layout_marginTop="1px"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/truckno"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center"
+                android:text="Edit"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="70px"
+                android:layout_weight="1"
+                android:background="@color/listBg"
+                android:gravity="center"
+                android:text="Delete"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="20px"
+            android:background="#EDEDE6" />
+
+    </LinearLayout>
+
+</LinearLayout>
